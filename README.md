@@ -50,7 +50,7 @@ gatsby-starter-blog-theme
 ├── src
 │   └── gatsby-theme-blog
 │       ├── components
-│       │   └── bio-content.js
+│       │   └── --bio-content.js
 │       └── gatsby-theme-ui
 │           └── colors.js
 ├── .gitignore
