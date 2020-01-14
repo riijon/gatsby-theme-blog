@@ -5,7 +5,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths"
   },
