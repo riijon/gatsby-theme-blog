@@ -20,21 +20,15 @@ jobs:
         uses: actions/cache@v1
         with:
           path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
 
       - name: install
-        run: npm install
-
-      - name: format
-        run: npm run format
-
-      - name: test
-        run: npm run test
+        run: yarn
 
       - name: build
-        run: npm run build
+        run: yarn build
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v2.4.0
