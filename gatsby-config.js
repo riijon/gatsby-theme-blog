@@ -5,6 +5,7 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    `gatsby-plugin-sass`
   ],
   // Customize your site metadata:
   siteMetadata: {
